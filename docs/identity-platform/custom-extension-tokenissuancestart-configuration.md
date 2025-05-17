@@ -102,7 +102,7 @@ In Graph Explorer, run the following request.
    - An example value is `api://authenticationeventsAPI.azurewebsites.net/00001111-aaaa-2222-bbbb-3333cccc4444`. Take note of this value as you'll use it later in this article in place of `{functionApp_IdentifierUri}`.
 
 ```http
-POST https://graph.microsoft.com/v1.0/applications/{authenticationeventsAPI_ObjectId}
+PUT https://graph.microsoft.com/v1.0/applications/{authenticationeventsAPI_ObjectId}
 Content-type: application/json
 
 {
